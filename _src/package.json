@@ -1,0 +1,38 @@
+{
+  "name": "surgeboris.github.io",
+  "version": "1.0.0",
+  "description": "My personal AMP static website",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-marked": "^1.0.0",
+    "gulp-stylus": "^2.5.0",
+    "gulp-util": "^3.0.7",
+    "map-stream": "0.0.6",
+    "through2": "^2.0.1",
+    "vinyl-contents-tostring": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/.bin/gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surgeboris/surgeboris.github.io/"
+  },
+  "keywords": [
+    "static website",
+    "amp",
+    "gulp",
+    "es6",
+    "stylus"
+  ],
+  "author": "surgeboris@gmail.com",
+  "license": "ISC"
+}
